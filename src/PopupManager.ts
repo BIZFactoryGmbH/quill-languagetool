@@ -35,11 +35,11 @@ export default class PopupManager {
   }
 
   private closePopup() {
-    console.log("Closing popup", this.openPopup, this.currentSuggestionElement);
     if (this.openPopup) {
       this.openPopup.remove();
       this.openPopup = undefined;
     }
+    
     this.currentSuggestionElement = undefined;
   }
 
@@ -119,10 +119,6 @@ export default class PopupManager {
                 </button>
               `;
             })}
-          </div>
-
-          <div class="quill-lt-powered-by">
-            Powered by <a href="https://languagetool.org">LanguageTool</a>
           </div>
         </div>
         <div class="quill-lt-popup-arrow" data-popper-arrow></div>
