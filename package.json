@@ -1,10 +1,13 @@
 {
-  "name": "quill-languagetool",
+  "name": "biz-quill-languagetool",
   "version": "1.0.7",
   "description": "LanguageTool integration for Quill.js editors",
-  "author": "vantezzen",
+  "author": "BIZFactoryGmbH",
   "license": "MIT",
-  "repository": "vantezzen/quill-languagetool",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BIZFactoryGmbH/quill-languagetool.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
@@ -40,7 +43,7 @@
     "@rollup/plugin-babel": "^5.2.0",
     "@rollup/plugin-commonjs": "^15.1.0",
     "@rollup/plugin-node-resolve": "^9.0.0",
-    "@rollup/plugin-typescript": "^5.0.2",
+    "@rollup/plugin-typescript": "^12.1.1",
     "@rollup/plugin-url": "^5.0.1",
     "@testing-library/react-hooks": "^3.2.1",
     "@types/jest": "^23.3.13",
@@ -50,13 +53,20 @@
     "gh-pages": "^2.0.1",
     "quill": "^2.0.2",
     "react": "^16.9.0",
-    "react-scripts": "^3.4.0",
+    "react-scripts": "^5.0.1",
     "react-test-renderer": "^16.9.0",
     "rollup": "^2.26.9",
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-postcss": "^4.0.2",
     "tslib": "^2.0.1",
-    "typescript": "^3.2.4",
+    "typescript": "^4.9.5",
     "util": "^0.12.4"
+  },
+  "bugs": {
+    "url": "https://github.com/vantezzen/quill-languagetool/issues"
+  },
+  "homepage": "https://github.com/vantezzen/quill-languagetool#readme",
+  "directories": {
+    "example": "example"
   }
 }

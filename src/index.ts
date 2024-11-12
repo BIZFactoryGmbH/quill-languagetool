@@ -128,7 +128,9 @@ export class QuillLanguageTool {
   }
 
   private getApiParams() {
-    const paramsObject = {
+    const paramsObject: {
+      [key: string]: string
+  } = {
       text: this.quill.getText(),
       language: this.params.language,
       ...this.params.apiOptions,
